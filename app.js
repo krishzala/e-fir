@@ -70,7 +70,7 @@ const Item1 = mongoose.model("main",mainSchema);
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "https://e-fir.herokuapp.com/auth/google/Efir",
+    callbackURL: "https://e-fir.onrender.com/auth/google/Efir",
     // callbackURL: "http://localhost:3000/auth/google/Efir",
     userProfileURL:"https://www.googleapis.com/oauth2/v3/userinfo"
   },
