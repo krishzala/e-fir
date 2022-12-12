@@ -208,6 +208,6 @@ app.post("/failure", function(req, res){
 
 
 //listen on port 3000
-app.listen(process.env.PORT || 3000,function(req, res){
+app.listen(process.env.PORT,function(req, res){
     console.log("server is running...");
 })
