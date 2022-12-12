@@ -130,7 +130,7 @@ app.post("/", function(req, res){
            console.log(err);
            res.sendFile(__dirname+"/public/duplicatemail.html");
         } else {
-          res.render("success");
+          res.sendFile(__dirname+"/public/success.html");
         }
     });
 
